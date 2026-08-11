@@ -33,7 +33,7 @@ body-classes: home-page
     <h2>Analytics with a client-first point of view.</h2>
   </div>
   <div class="portfolio-intro__copy">
-    <p>I’m pursuing a <strong>Master of Science in Digital Marketing (Marketing Analytics)</strong> at Cal Poly Pomona after earning my <strong>BA in Communications</strong> from UC San Diego.</p>
+    <p>I earned my <strong>Master of Science in Digital Marketing (Marketing Analytics)</strong> from Cal Poly Pomona after completing my <strong>BA in Communications</strong> at UC San Diego.</p>
     <p>My background in employee benefits and client relations shapes how I approach analytics: start with the business question, make the information understandable, and turn the findings into action.</p>
   </div>
 </section>

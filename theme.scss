@@ -567,7 +567,7 @@ main { box-shadow: 0 20px 60px rgba(104, 71, 47, 0.14); }
 
 h1, h2, h3, h4, h5, h6,
 .navbar-title,
-.navbar-nav .nav-link { color: var(--blue-700) !important; }
+.navbar-nav .nav-link { color: var(--blue-600) !important; }
 
 h2 { border-color: var(--blue-200); }
 
@@ -668,3 +668,19 @@ blockquote { border-color: var(--blue-400); background: #fffdf8; color: var(--mu
 .skill-cloud span { background: #fffdf8; }
 .portfolio-cta { background: linear-gradient(135deg, #f3e7d5, #fffdf8); }
 .analytics-frame { border-color: var(--blue-200); box-shadow: 0 20px 50px rgba(104, 71, 47, 0.14); }
+
+/* Softer caramel-tan headings */
+.portfolio-hero h1,
+.portfolio-section h2,
+.portfolio-cta h2,
+.contact-hero h1,
+.project-modal__copy h2,
+.experience-dialog h2,
+main > header .title,
+.project-card__content strong,
+.experience-card__content strong,
+.resume-info-card h3,
+.featured-work__card:not(.featured-work__card--large) h3,
+.contact-card strong {
+  color: var(--blue-600) !important;
+}
