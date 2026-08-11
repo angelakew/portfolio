@@ -380,8 +380,8 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
 .portfolio-stats strong { color: var(--blue-700); font-size: 1.65rem; }
 .portfolio-stats span { color: var(--muted); font-size: 0.78rem; }
 .portfolio-hero__visual { display: grid; place-items: center; }
-.portfolio-portrait-wrap { position: relative; width: min(360px, 100%); padding: 0.8rem; border-radius: 28px; background: linear-gradient(145deg, #b8e2f7, #fff); box-shadow: 0 28px 60px rgba(47, 102, 144, 0.22); }
-.portfolio-portrait { width: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center center; border-radius: 20px; }
+.portfolio-portrait-wrap { position: relative; width: min(360px, 100%); aspect-ratio: 1 / 1; padding: 0.8rem; border-radius: 50%; background: linear-gradient(145deg, #b8e2f7, #fff); box-shadow: 0 28px 60px rgba(47, 102, 144, 0.22); }
+.portfolio-portrait { width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center center; border-radius: 50%; }
 .portfolio-status { position: absolute; right: -0.6rem; bottom: 1.3rem; max-width: calc(100% - 1rem); padding: 0.62rem 0.82rem; border: 1px solid var(--blue-300); border-radius: 999px; background: #fff; color: var(--blue-700); font-size: 0.72rem; font-weight: 800; white-space: nowrap; box-shadow: 0 12px 30px rgba(47,102,144,.15); }
 
 .portfolio-section { padding: clamp(4rem, 8vw, 7rem); border-top: 1px solid var(--blue-200); }
