@@ -1,81 +1,44 @@
 ---
 title: "Marketing Analytics for CEP"
-listing: 
-  contents: listings
-  type: grid
-  categories: true
-  sort: 
-    - "index desc"
+toc: false
 ---
 
-Below are selected projects from my work with the Trauma Resource Institute (TRI), where I leveraged marketing analytics to evaluate and optimize Google Ad Grants performance. These projects demonstrate my ability to analyze search behavior, assess campaign structure, and translate performance data into actionable recommendations.
-
-By combining statistical analysis, dashboard development, and search query insights, I focused on improving traffic quality, identifying non-brand demand opportunities, and supporting more effective campaign and landing page alignment.
-
-## What You’ll Find
-
-## TRI Google Ad Grants Dashboard
-
-This dashboard summarizes TRI’s Google Ad Grants activity for CRM vs TRM using the latest campaign exports. It focuses on search volume, match-type distribution, and top search themes to evaluate traffic quality and identify opportunities for optimization.
-
-### View Interactive Dashboard
+Selected analytics work for the Trauma Resource Institute (TRI), translating Google Ad Grants data into dashboards, diagnostic tools, and client-ready recommendations. Select a card for an interactive preview.
 
 ```{=html}
-<iframe 
-  src="https://angelakew.github.io/dashboard/" 
-  width="100%" 
-  height="600px" 
-  style="border: none;">
-</iframe>
+<div class="project-toolbar" aria-label="Analytics gallery summary">
+  <span>TRI client work</span><strong>3 interactive projects</strong><span>Google Ad Grants</span>
+</div>
+
+<div class="project-grid project-grid--analytics">
+  <button class="project-card project-card--featured" type="button" data-project-preview
+    data-title="TRI Google Ad Grants Dashboard"
+    data-tag="Dashboard · Analytics"
+    data-description="A campaign-performance dashboard comparing CRM and TRM search volume, match-type distribution, and top query themes to identify optimization opportunities."
+    data-url="https://angelakew.github.io/dashboard/">
+    <span class="project-card__number">01</span><span class="project-card__tag">Dashboard</span>
+    <span class="project-card__content"><small>Campaign Volume · Search Quality</small><strong>Google Ad Grants Dashboard</strong><span>A clear view of performance, demand themes, and opportunities.</span></span>
+    <span class="project-card__action">Open interactive preview <b>↗</b></span>
+  </button>
+
+  <button class="project-card" type="button" data-project-preview
+    data-title="TRI Google Ad Grants Explorer"
+    data-tag="Shiny App · Diagnostics"
+    data-description="An interactive application with program-level filtering and diagnostics for campaign volume, match-type distribution, and search-term quality."
+    data-url="https://angelakew.shinyapps.io/TRIapp/">
+    <span class="project-card__number">02</span><span class="project-card__tag">Shiny App</span>
+    <span class="project-card__content"><small>R Shiny · Filters · Diagnostics</small><strong>Google Ad Grants Explorer</strong><span>Hands-on exploration of CRM and TRM campaign performance.</span></span>
+    <span class="project-card__action">Launch interactive app <b>↗</b></span>
+  </button>
+
+  <button class="project-card" type="button" data-project-preview
+    data-title="TRI Client Presentation"
+    data-tag="RevealJS · Storytelling"
+    data-description="A client-ready presentation translating campaign analysis into a focused narrative, key findings, and actionable Google Ad Grants recommendations."
+    data-url="https://angelakew.github.io/TRI-revealjs/#/title-slide">
+    <span class="project-card__number">03</span><span class="project-card__tag">Presentation</span>
+    <span class="project-card__content"><small>Insights · Recommendations</small><strong>TRI Client Presentation</strong><span>Turning analysis into a concise, decision-ready story.</span></span>
+    <span class="project-card__action">Preview presentation <b>↗</b></span>
+  </button>
+</div>
 ```
-
-<p style="margin-top: 10px;">
-  View full dashboard here:
-  <a href="https://angelakew.github.io/dashboard/" target="_blank" rel="noopener noreferrer">
-  https://angelakew.github.io/dashboard/
-  </a>
-</p>
-
----
-
-## TRI Google Ad Grants Explorer (Shiny App)
-
-This interactive Shiny app lets users explore TRI’s Google Ad Grants performance for CRM vs TRM campaigns. The application supports program-level filtering and diagnostics for campaign volume, match-type distribution, and search-term quality.
-
-### View Interactive App
-
-```{=html}
-<iframe 
-  src="https://angelakew.shinyapps.io/TRIapp/" 
-  width="100%" 
-  height="800px" 
-  style="border: none;">
-</iframe>
-```
-
-<p style="margin-top: 10px;">
-  Launch app externally:
-  <a href="https://angelakew.shinyapps.io/TRIapp/" target="_blank" rel="noopener noreferrer">
-    https://angelakew.shinyapps.io/TRIapp/
-  </a>
-</p>
-
----
-
-## TRI RevealJS Client Presentation
-
-```{=html}
-<iframe 
-  src="https://angelakew.github.io/TRI-revealjs/#/title-slide" 
-  width="100%" 
-  height="800px" 
-  style="border: none;">
-</iframe>
-```
-
-<p style="margin-top: 10px;">
-  Launch presentation externally:
-  <a href="https://angelakew.github.io/TRI-revealjs/#/title-slide" target="_blank" rel="noopener noreferrer">
-    https://angelakew.github.io/TRI-revealjs/#/title-slide
-  </a>
-</p>

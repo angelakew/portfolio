@@ -158,3 +158,183 @@ pre code {
 .hero-adjust {
   margin-top: -10px;
 }
+
+/* Interactive project gallery */
+.project-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  margin: 2rem 0 1.1rem;
+  color: #39749d;
+  font-size: 0.82rem;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.project-toolbar strong {
+  margin-left: auto;
+  padding: 0.42rem 0.75rem;
+  border-radius: 999px;
+  background: #dff3ff;
+  color: #245e87;
+}
+
+.project-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.project-grid--analytics {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.project-card {
+  min-height: 330px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  align-content: start;
+  padding: 1.55rem;
+  border: 1px solid #cce7f7;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #ffffff 0%, #f2faff 100%);
+  color: #1f2933;
+  text-align: left;
+  font: inherit;
+  cursor: pointer;
+  box-shadow: 0 10px 30px rgba(47, 128, 183, 0.07);
+  transition: transform 180ms ease, box-shadow 180ms ease, border-color 180ms ease;
+}
+
+.project-card:hover,
+.project-card:focus-visible {
+  transform: translateY(-6px);
+  border-color: #89cff0;
+  box-shadow: 0 20px 45px rgba(47, 128, 183, 0.18);
+  outline: none;
+}
+
+.project-card--featured {
+  background: linear-gradient(145deg, #dff3ff 0%, #f8fcff 70%);
+  border-color: #89cff0;
+}
+
+.project-card__number {
+  color: #5798ca;
+  font-size: 0.82rem;
+  font-weight: 800;
+  letter-spacing: 0.1em;
+}
+
+.project-card__tag {
+  padding: 0.35rem 0.62rem;
+  border-radius: 999px;
+  background: #d6ecfa;
+  color: #2f6690;
+  font-size: 0.72rem;
+  font-weight: 800;
+}
+
+.project-card__content {
+  grid-column: 1 / -1;
+  align-self: end;
+  display: grid;
+  gap: 0.65rem;
+  margin-top: 3.6rem;
+}
+
+.project-card__content small {
+  color: #5798ca;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.project-card__content strong {
+  color: #2f6690;
+  font-size: 1.45rem;
+  line-height: 1.08;
+}
+
+.project-card__content > span {
+  color: #5f7180;
+  line-height: 1.5;
+}
+
+.project-card__action {
+  grid-column: 1 / -1;
+  align-self: end;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1.8rem;
+  padding-top: 1rem;
+  border-top: 1px solid #d6ecfa;
+  color: #2f6690;
+  font-weight: 800;
+}
+
+.project-modal {
+  position: fixed;
+  inset: 0;
+  z-index: 2000;
+  display: none;
+  place-items: center;
+  padding: 1.5rem;
+}
+
+.project-modal.is-open { display: grid; }
+.project-modal__backdrop { position: absolute; inset: 0; background: rgba(26, 63, 88, 0.56); backdrop-filter: blur(8px); }
+.project-modal__panel {
+  position: relative;
+  width: min(1120px, 96vw);
+  max-height: 90vh;
+  display: grid;
+  grid-template-columns: minmax(280px, 0.72fr) minmax(0, 1.6fr);
+  overflow: hidden;
+  border: 1px solid #b8e2f7;
+  border-radius: 24px;
+  background: #f7fcff;
+  box-shadow: 0 35px 90px rgba(20, 67, 99, 0.34);
+}
+
+.project-modal__close {
+  position: absolute;
+  top: 0.8rem;
+  right: 0.9rem;
+  z-index: 2;
+  width: 2.5rem;
+  height: 2.5rem;
+  border: 0;
+  border-radius: 50%;
+  background: #dff3ff;
+  color: #2f6690;
+  font-size: 1.7rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.project-modal__copy { padding: 3.4rem 2rem 2.2rem; }
+.project-modal__tag { color: #5798ca; font-size: 0.78rem; font-weight: 800; letter-spacing: 0.08em; text-transform: uppercase; }
+.project-modal__copy h2 { margin-top: 1rem; border: 0; font-size: 2.1rem; }
+.project-modal__copy p { color: #5f7180; line-height: 1.65; }
+.project-modal__link { display: inline-block; margin-top: 1rem; padding: 0.8rem 1rem; border-radius: 10px; background: #2f6690; color: #fff !important; }
+.project-modal__preview { min-height: 620px; background: #dff3ff; }
+.project-modal__preview iframe { width: 100%; height: 100%; min-height: 620px; border: 0; background: white; }
+body.modal-open { overflow: hidden; }
+
+@media (max-width: 900px) {
+  .project-grid--analytics { grid-template-columns: 1fr; }
+  .project-modal__panel { grid-template-columns: 1fr; overflow-y: auto; }
+  .project-modal__copy { padding: 2.8rem 1.4rem 1.4rem; }
+  .project-modal__preview, .project-modal__preview iframe { min-height: 55vh; }
+}
+
+@media (max-width: 680px) {
+  main { padding: 1.35rem !important; border-radius: 20px; }
+  .project-grid { grid-template-columns: 1fr; }
+  .project-card { min-height: 300px; }
+  .project-toolbar > span:last-child { display: none; }
+  .project-modal { padding: 0.55rem; }
+}

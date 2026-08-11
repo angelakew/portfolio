@@ -1,112 +1,78 @@
 ---
 title: "Technical Projects & Presentations"
+toc: false
 ---
 
-Below are selected projects that showcase my work in strategic marketing, campaign development, analytics, and data-informed decision making.
-
----
-
-## TRI Google Ads Optimization & Campaign Strategy Grad Capstone Project (Fall 2025 - Present)
-
-For my client project with the Trauma Resource Institute (TRI), I am leading the development and optimization of Google Ads campaigns to improve lead generation and maximize the impact of the Google Ads grant.
-
-This work involves auditing historical campaign performance, restructuring campaigns based on user intent, and aligning keywords, ad copy, and landing pages to drive higher-quality conversions.
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAHCM607PYQ/takCMRSBodfQDve6leJxRw/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAHCM607PYQ&#x2F;takCMRSBodfQDve6leJxRw&#x2F;view?utm_content=DAHCM607PYQ&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Group 7 Final Capstone Presentation</a>
-
----
-
-## Data Analysis Project: Exploratory Data & Insights (Fall 2024)
-
-I led the sourcing and development of a dataset-driven analysis project using R and Quarto. I independently identified and curated a real-world animal shelter dataset, then collaborated with my team to clean, analyze, and interpret the data to uncover meaningful insights.
-
-This project focused on understanding the factors that influence animal adoption outcomes. Through data preparation, feature engineering, and statistical analysis, I examined how variables such as breed type, intake condition, age, and intake source impact the likelihood of adoption.
-
-The analysis included exploratory data analysis, correlation analysis, and logistic regression modeling. During modeling, I identified multicollinearity issues across predictors, which informed how results were interpreted.
-
-<iframe src="https://angelakew.github.io/dataset-project/" width="100%" height="600" style="border: none;"></iframe>
----
-
-## Beyond Meat: Digital Marketing & Competitive Strategy Analysis (Fall 2025)
-
-In this project, I analyzed how Beyond Meat can shift consumer behavior and increase adoption of plant-based alternatives through targeted digital marketing and strategic positioning.
-
-I focused specifically on evaluating digital marketing practices and the competitive landscape, identifying how Beyond Meat can compete against both traditional meat products and other plant-based brands through pricing, messaging, and channel strategy.
-
-Building on consumer behavior frameworks, I explored how marketing tactics such as search ads, retail media, and social content can influence perception, reduce adoption barriers, and drive repeat purchase behavior.
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.25%; margin-top: 1.5em; margin-bottom: 1em;">
-  <iframe 
-    src="https://www.canva.com/design/DAG0Z0uNRSI/Dx80MtkX8hCFYJuuR5uazQ/view?embed" 
-    style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none;" 
-    allowfullscreen>
-  </iframe>
-</div>
-
-<p style="text-align: center;">
-  <a href="https://www.canva.com/design/DAG0Z0uNRSI/Dx80MtkX8hCFYJuuR5uazQ/view" target="_blank">
-    View Full Report
-  </a>
-</p>
----
-
-## Demand Forecasting with Regression & Machine Learning in the Construction Industry (Spring 2025)
-
-This project explores demand forecasting in a construction machinery context using both traditional statistical models and advanced machine learning techniques.
-
-Based on a real-world study, I analyzed how different modeling approaches-including linear regression, nonlinear regression, artificial neural networks (ANN), and support vector regression (SVR)-perform in predicting spare parts demand.
-
-The analysis integrates multiple data sources, including historical ERP sales data, global machinery sales trends, exchange rates, and engineered variables such as a monthly impact rate to capture seasonality and demand fluctuations.
----
-
-<div style="position: relative; width: 100%; height: 0; padding-top: 56.2500%;
- padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
- border-radius: 8px; will-change: transform;">
-  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
-    src="https://www.canva.com/design/DAGkUQwReMc/5_qGP17wO9vsM57_6jTO9w/view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
-  </iframe>
-</div>
-<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAGkUQwReMc&#x2F;5_qGP17wO9vsM57_6jTO9w&#x2F;view?utm_content=DAGkUQwReMc&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">AI Construction</a> by Angela Qian
----
-
-## Dave's Hot Chicken Marketing Campaign (Fall 2024)
-
-This project presents an integrated marketing campaign strategy for Dave’s Hot Chicken, focused on expanding brand reach while maintaining its authentic, high-engagement social media presence.
-
-The campaign combines organic social media growth, paid advertising, and brand experience strategies to strengthen customer engagement and drive long-term brand loyalty.
+These selected projects bring together strategic marketing, campaign development, analytics, ecommerce, and data-informed decision making. Select any card to explore the work without leaving the gallery.
 
 ```{=html}
-<div style="
-  position: relative;
-  width: 100%;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  border-radius: 12px;
-  margin: 20px 0;
-  background: #000;
-">
-  <iframe
-    src="https://docs.google.com/presentation/d/e/2PACX-1vTAZQnaQ8l4DFx9pQbP7rfbFhLSctI5vBwQoZYPney5pl4jzJgvWSaYgOpJYJNqrZ40331E_kpX-sgj/pubembed?start=false&loop=false&delayms=3000"
-    frameborder="0"
-    allowfullscreen="true"
-    mozallowfullscreen="true"
-    webkitallowfullscreen="true"
-    style="
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      border: none;
-    ">
-  </iframe>
+<div class="project-toolbar" aria-label="Project gallery summary">
+  <span>Selected work</span><strong>6 projects</strong><span>2024–2026</span>
+</div>
+
+<div class="project-grid">
+  <button class="project-card project-card--featured" type="button" data-project-preview
+    data-title="CPP Farm Store Omnichannel Consulting"
+    data-tag="Consulting · 2026"
+    data-description="A connected ecommerce, campaign, retail media, and analytics plan designed to move customers from product discovery to convenient store pickup."
+    data-url="https://ibm6300-final-deliverables.netlify.app/">
+    <span class="project-card__number">01</span><span class="project-card__tag">Featured</span>
+    <span class="project-card__content"><small>Consulting · Ecommerce · Analytics</small><strong>CPP Farm Store Omnichannel Consulting</strong><span>A connected customer journey from campus-grown discovery to pickup.</span></span>
+    <span class="project-card__action">Explore project <b>↗</b></span>
+  </button>
+
+  <button class="project-card" type="button" data-project-preview
+    data-title="TRI Google Ads Optimization & Campaign Strategy"
+    data-tag="Graduate Capstone · 2025–Present"
+    data-description="A client capstone focused on auditing historical campaign performance, restructuring campaigns around user intent, and aligning keywords, ads, and landing pages for stronger conversions."
+    data-url="https://www.canva.com/design/DAHCM607PYQ/takCMRSBodfQDve6leJxRw/view"
+    data-embed="https://www.canva.com/design/DAHCM607PYQ/takCMRSBodfQDve6leJxRw/view?embed">
+    <span class="project-card__number">02</span><span class="project-card__tag">Capstone</span>
+    <span class="project-card__content"><small>Google Ads · Strategy</small><strong>TRI Campaign Optimization</strong><span>Search-intent strategy for higher-quality nonprofit conversions.</span></span>
+    <span class="project-card__action">Preview presentation <b>↗</b></span>
+  </button>
+
+  <button class="project-card" type="button" data-project-preview
+    data-title="Animal Shelter Adoption Analysis"
+    data-tag="Data Analysis · Fall 2024"
+    data-description="An R and Quarto analysis of the factors influencing animal adoption outcomes, including data preparation, exploratory analysis, correlation analysis, and logistic regression."
+    data-url="https://angelakew.github.io/dataset-project/">
+    <span class="project-card__number">03</span><span class="project-card__tag">R + Quarto</span>
+    <span class="project-card__content"><small>EDA · Regression · Storytelling</small><strong>Animal Shelter Adoption Analysis</strong><span>Turning a real-world dataset into clear adoption insights.</span></span>
+    <span class="project-card__action">Explore analysis <b>↗</b></span>
+  </button>
+
+  <button class="project-card" type="button" data-project-preview
+    data-title="Beyond Meat Digital Marketing Strategy"
+    data-tag="Competitive Strategy · Fall 2025"
+    data-description="A competitive and digital marketing analysis exploring how search ads, retail media, social content, pricing, and positioning can reduce adoption barriers for plant-based products."
+    data-url="https://www.canva.com/design/DAG0Z0uNRSI/Dx80MtkX8hCFYJuuR5uazQ/view"
+    data-embed="https://www.canva.com/design/DAG0Z0uNRSI/Dx80MtkX8hCFYJuuR5uazQ/view?embed">
+    <span class="project-card__number">04</span><span class="project-card__tag">Strategy</span>
+    <span class="project-card__content"><small>Consumer Behavior · Digital</small><strong>Beyond Meat Competitive Strategy</strong><span>Digital tactics designed to shift perception and purchase behavior.</span></span>
+    <span class="project-card__action">Preview report <b>↗</b></span>
+  </button>
+
+  <button class="project-card" type="button" data-project-preview
+    data-title="Construction Demand Forecasting"
+    data-tag="Predictive Analytics · Spring 2025"
+    data-description="A comparison of linear and nonlinear regression, artificial neural networks, and support vector regression for spare-parts demand forecasting in construction machinery."
+    data-url="https://www.canva.com/design/DAGkUQwReMc/5_qGP17wO9vsM57_6jTO9w/view"
+    data-embed="https://www.canva.com/design/DAGkUQwReMc/5_qGP17wO9vsM57_6jTO9w/view?embed">
+    <span class="project-card__number">05</span><span class="project-card__tag">Machine Learning</span>
+    <span class="project-card__content"><small>Forecasting · ANN · SVR</small><strong>Construction Demand Forecasting</strong><span>Comparing statistical and machine-learning forecasting methods.</span></span>
+    <span class="project-card__action">Preview presentation <b>↗</b></span>
+  </button>
+
+  <button class="project-card" type="button" data-project-preview
+    data-title="Dave’s Hot Chicken Marketing Campaign"
+    data-tag="Integrated Campaign · Fall 2024"
+    data-description="An integrated campaign combining organic social growth, paid advertising, and brand experiences to expand reach while preserving an authentic social presence."
+    data-url="https://docs.google.com/presentation/d/e/2PACX-1vTAZQnaQ8l4DFx9pQbP7rfbFhLSctI5vBwQoZYPney5pl4jzJgvWSaYgOpJYJNqrZ40331E_kpX-sgj/pub"
+    data-embed="https://docs.google.com/presentation/d/e/2PACX-1vTAZQnaQ8l4DFx9pQbP7rfbFhLSctI5vBwQoZYPney5pl4jzJgvWSaYgOpJYJNqrZ40331E_kpX-sgj/pubembed?start=false&amp;loop=false&amp;delayms=3000">
+    <span class="project-card__number">06</span><span class="project-card__tag">Campaign</span>
+    <span class="project-card__content"><small>Social · Paid Media · Brand</small><strong>Dave’s Hot Chicken Campaign</strong><span>An integrated strategy for reach, engagement, and loyalty.</span></span>
+    <span class="project-card__action">Preview presentation <b>↗</b></span>
+  </button>
 </div>
 ```

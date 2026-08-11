@@ -25,3 +25,4 @@ format:
       - cosmo
       - theme.scss
     toc: true
+    include-after-body: includes/project-modal.html
