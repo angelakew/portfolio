@@ -553,7 +553,8 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
 
 /* Warm beige portfolio palette */
 body {
-  background: linear-gradient(180deg, #fbf7ef 0%, #fffdf8 45%, #f7edde 100%) !important;
+  background: #fbf7ef !important;
+  background-attachment: fixed !important;
   color: var(--ink);
 }
 
