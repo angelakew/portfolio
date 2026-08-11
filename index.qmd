@@ -23,7 +23,6 @@ body-classes: home-page
   <div class="portfolio-hero__visual">
     <div class="portfolio-portrait-wrap">
       <img src="images/headshot-new.jpeg" alt="Angela Qian" class="portfolio-portrait">
-      <span class="portfolio-status">Open to opportunities</span>
     </div>
   </div>
 </section>

@@ -380,9 +380,8 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
 .portfolio-stats strong { color: var(--blue-700); font-size: 1.65rem; }
 .portfolio-stats span { color: var(--muted); font-size: 0.78rem; }
 .portfolio-hero__visual { display: grid; place-items: center; }
-.portfolio-portrait-wrap { position: relative; width: min(360px, 100%); aspect-ratio: 1 / 1; padding: 0.8rem; border-radius: 50%; background: linear-gradient(145deg, #b8e2f7, #fff); box-shadow: 0 28px 60px rgba(47, 102, 144, 0.22); }
+.portfolio-portrait-wrap { position: relative; width: min(430px, 100%); aspect-ratio: 1 / 1; padding: 0.9rem; border-radius: 50%; background: linear-gradient(145deg, #b8e2f7, #fff); box-shadow: 0 32px 70px rgba(47, 102, 144, 0.24); }
 .portfolio-portrait { width: 100%; height: 100%; aspect-ratio: 1 / 1; object-fit: cover; object-position: center center; border-radius: 50%; }
-.portfolio-status { position: absolute; right: -0.6rem; bottom: 1.3rem; max-width: calc(100% - 1rem); padding: 0.62rem 0.82rem; border: 1px solid var(--blue-300); border-radius: 999px; background: #fff; color: var(--blue-700); font-size: 0.72rem; font-weight: 800; white-space: nowrap; box-shadow: 0 12px 30px rgba(47,102,144,.15); }
 
 .portfolio-section { padding: clamp(4rem, 8vw, 7rem); border-top: 1px solid var(--blue-200); }
 .portfolio-section h2, .portfolio-cta h2 { margin: 0; border: 0; color: var(--ink) !important; font-size: clamp(2.4rem, 4vw, 4rem); line-height: 1.02; }
@@ -442,7 +441,7 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
   .portfolio-hero, .portfolio-intro, .portfolio-section__heading { grid-template-columns: 1fr; }
   .portfolio-hero { text-align: left; }
   .portfolio-hero__visual { grid-row: 1; }
-  .portfolio-portrait-wrap { width: min(300px, 80vw); }
+  .portfolio-portrait-wrap { width: min(350px, 82vw); }
   .capability-grid { grid-template-columns: 1fr; }
   .capability-grid article { min-height: 230px; }
   .featured-work__grid { grid-template-columns: 1fr; }
@@ -464,7 +463,6 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
   .portfolio-button { width: 100%; white-space: normal; }
   .portfolio-stats { gap: 1.3rem; }
   .portfolio-stats strong { font-size: 1.35rem; }
-  .portfolio-status { right: -.25rem; }
   .contact-grid { grid-template-columns: 1fr; }
   .resume-download { align-items: flex-start; flex-direction: column; }
 }
