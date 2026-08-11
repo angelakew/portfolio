@@ -12,7 +12,7 @@ body-classes: contact-page
 </section>
 
 <div class="contact-grid">
-  <a class="contact-card" href="mailto:angelaqian168n@yahoo.com"><span class="contact-card__icon">@</span><small>Email</small><strong>Send me a message</strong><p>The best way to reach me directly.</p><b>angelaqian168n@yahoo.com ↗</b></a>
+  <a class="contact-card" href="mailto:angeluhqian@gmail.com"><span class="contact-card__icon">@</span><small>Email</small><strong>Send me a message</strong><p>The best way to reach me directly.</p><b>angeluhqian@gmail.com ↗</b></a>
   <a class="contact-card" href="https://www.linkedin.com/in/qianangela1/" target="_blank" rel="noopener"><span class="contact-card__icon">in</span><small>LinkedIn</small><strong>Connect professionally</strong><p>Follow my work and professional updates.</p><b>View my profile ↗</b></a>
 </div>
 
