@@ -22,7 +22,7 @@ body-classes: home-page
   </div>
   <div class="portfolio-hero__visual">
     <div class="portfolio-portrait-wrap">
-      <img src="images/headshot.png" alt="Angela Qian" class="portfolio-portrait">
+      <img src="images/headshot-new.jpeg" alt="Angela Qian" class="portfolio-portrait">
       <span class="portfolio-status">Open to opportunities</span>
     </div>
   </div>
@@ -70,6 +70,6 @@ body-classes: home-page
 
 <section class="portfolio-cta">
   <div><p class="portfolio-eyebrow">Let’s connect</p><h2>Interested in data-driven, client-centered work?</h2></div>
-  <div class="portfolio-actions"><a class="portfolio-button portfolio-button--primary" href="mailto:angelaqian168n@yahoo.com">Email me</a><a class="portfolio-button portfolio-button--secondary" href="https://www.linkedin.com/in/qianangela1/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+  <div class="portfolio-actions"><a class="portfolio-button portfolio-button--primary" href="mailto:angeluhqian@gmail.com">Email me</a><a class="portfolio-button portfolio-button--secondary" href="https://www.linkedin.com/in/qianangela1/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
 </section>
 ```
