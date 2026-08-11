@@ -7,7 +7,7 @@ Selected analytics work for the Trauma Resource Institute (TRI), translating Goo
 
 ```{=html}
 <div class="project-toolbar" aria-label="Analytics gallery summary">
-  <span>TRI client work</span><strong>3 interactive projects</strong><span>Google Ad Grants</span>
+  <span>TRI client work</span><strong>4 interactive projects</strong><span>Google Ad Grants</span>
 </div>
 
 <div class="project-grid project-grid--analytics">
@@ -39,6 +39,17 @@ Selected analytics work for the Trauma Resource Institute (TRI), translating Goo
     <span class="project-card__number">03</span><span class="project-card__tag">Presentation</span>
     <span class="project-card__content"><small>Insights · Recommendations</small><strong>TRI Client Presentation</strong><span>Turning analysis into a concise, decision-ready story.</span></span>
     <span class="project-card__action">Preview presentation <b>↗</b></span>
+  </button>
+
+  <button class="project-card project-card--featured" type="button" data-project-preview
+    data-title="TRI CEP Analytics Presentation"
+    data-tag="Canva · Client Work"
+    data-description="A client-facing CEP presentation bringing together TRI analytics findings, performance insights, and recommendations in a clear visual story."
+    data-url="https://www.canva.com/design/DAHNnLMKIQ8/aE9KOUUXyh_dLx8sfgV4LQ/view"
+    data-embed="https://www.canva.com/design/DAHNnLMKIQ8/aE9KOUUXyh_dLx8sfgV4LQ/view?embed">
+    <span class="project-card__number">04</span><span class="project-card__tag">New</span>
+    <span class="project-card__content"><small>CEP · Analytics · Client Story</small><strong>TRI CEP Analytics Presentation</strong><span>A visual presentation of findings, insights, and recommendations.</span></span>
+    <span class="project-card__action">Preview Canva presentation <b>↗</b></span>
   </button>
 </div>
 ```
