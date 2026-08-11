@@ -437,6 +437,24 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
 .resume-download a { padding: .65rem .85rem; border-radius: 9px; background: var(--blue-700); color: #fff !important; }
 .analytics-frame { width: 100%; max-width: 1200px; margin: 1.5rem auto 3rem; overflow: hidden; border: 10px solid #dff3ff; border-radius: 20px; box-shadow: 0 20px 50px rgba(47,102,144,.14); }
 
+.experience-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0 3rem; }
+.experience-card { min-height: 350px; display: grid; grid-template-columns: 1fr auto; align-content: start; padding: 1.5rem; border: 1px solid var(--blue-200); border-radius: 20px; background: linear-gradient(145deg, #fff, #f1f9ff); color: var(--ink); text-align: left; font: inherit; cursor: pointer; box-shadow: 0 10px 28px rgba(47,102,144,.08); transition: transform 170ms ease, box-shadow 170ms ease, border-color 170ms ease; }
+.experience-card:hover, .experience-card:focus-visible { transform: translateY(-5px); border-color: var(--blue-400); box-shadow: 0 20px 45px rgba(47,102,144,.16); outline: none; }
+.experience-card--featured { background: linear-gradient(145deg, #dff3ff, #fff); border-color: var(--blue-400); }
+.experience-card__date { color: var(--blue-600); font-size: .78rem; font-weight: 800; }
+.experience-card__tag { padding: .35rem .6rem; border-radius: 999px; background: var(--blue-200); color: var(--blue-700); font-size: .68rem; font-weight: 800; }
+.experience-card__content { grid-column: 1 / -1; align-self: end; display: grid; gap: .6rem; margin-top: 3.2rem; }
+.experience-card__content small { color: var(--blue-600); font-size: .72rem; font-weight: 800; letter-spacing: .06em; text-transform: uppercase; }
+.experience-card__content strong { color: var(--blue-700); font-size: 1.45rem; line-height: 1.1; }
+.experience-card__content > span { color: var(--muted); line-height: 1.5; }
+.experience-card__action { grid-column: 1 / -1; align-self: end; display: flex; justify-content: space-between; margin-top: 1.5rem; padding-top: 1rem; border-top: 1px solid var(--blue-200); color: var(--blue-700); font-weight: 800; }
+.experience-dialog { width: min(820px, calc(100vw - 2rem)); max-height: 86vh; padding: 2.5rem; border: 1px solid var(--blue-300); border-radius: 24px; background: #f8fcff; color: var(--ink); box-shadow: 0 35px 90px rgba(20,67,99,.34); }
+.experience-dialog::backdrop { background: rgba(26,63,88,.58); backdrop-filter: blur(8px); }
+.experience-dialog h2 { margin: .4rem 0; border: 0; font-size: clamp(2rem, 4vw, 3rem); }
+.experience-dialog h3 { margin: 0 0 1.5rem; color: var(--blue-600) !important; font-size: 1.25rem; }
+.experience-dialog ul { display: grid; gap: .75rem; padding-left: 1.25rem; color: var(--muted); }
+.experience-dialog__close { position: absolute; top: .85rem; right: .9rem; width: 2.5rem; height: 2.5rem; border: 0; border-radius: 50%; background: var(--blue-200); color: var(--blue-700); font-size: 1.7rem; line-height: 1; cursor: pointer; }
+
 @media (max-width: 900px) {
   .portfolio-hero, .portfolio-intro, .portfolio-section__heading { grid-template-columns: 1fr; }
   .portfolio-hero { text-align: left; }
@@ -448,6 +466,8 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
   .featured-work__card--large { grid-row: auto; min-height: 360px; }
   .portfolio-text-link { justify-self: start; }
   .portfolio-cta { align-items: flex-start; flex-direction: column; }
+  .experience-grid { grid-template-columns: 1fr; }
+  .experience-card { min-height: 290px; }
 }
 
 @media (min-width: 901px) and (max-width: 1120px) {
@@ -465,4 +485,5 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
   .portfolio-stats strong { font-size: 1.35rem; }
   .contact-grid { grid-template-columns: 1fr; }
   .resume-download { align-items: flex-start; flex-direction: column; }
+  .experience-dialog { padding: 2.7rem 1.25rem 1.5rem; }
 }

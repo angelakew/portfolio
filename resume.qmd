@@ -26,36 +26,84 @@ B.A. Communications (Marketing and Public Relations)
 
 ## Experience
 
-### EPIC Insurance Brokers & Consultants  
-**Client Coordinator, Employee Benefits**  
-*January 2024 – August 2024*
+Select a role to view the full experience details.
 
-- Served as the primary point of contact for Client Executives, directly reporting on all requested deliverables to streamline compliance processes and optimize the delivery of marketing materials to clients, ensuring consistent alignment with regulatory standards and client expectations.
-- Strategically managed a diverse portfolio of approximately 15 large group accounts, each with over 500 employees, alongside multiple smaller divisions, providing personalized support and proactive account management to maintain client satisfaction and retention.
-- Provided expert assistance in resolving complex client and employee issues, including benefit claim disputes, eligibility concerns, and policy inquiries, ensuring timely resolution and maintaining strong client relationships.
-- Cultivated and sustained successful, mutually beneficial relationships with a wide network of stakeholders, including clients, insurance carriers, and third-party administrators, fostering collaboration and clear communication.
-- Leveraged industry-leading BenAdmin platforms, including BenefitPoint, to accurately manage and maintain all policy details, commission structures, and documentation, ensuring transparency, compliance, and data integrity.
-- Designed and delivered comprehensive financial reports, renewal presentations, and client brochures, incorporating key marketing metrics, benchmarking data, and commission analysis to support informed decision-making and client retention strategies.
+```{=html}
+<div class="experience-grid">
+  <button class="experience-card experience-card--featured" type="button" data-experience-open="experience-epic">
+    <span class="experience-card__date">2024</span><span class="experience-card__tag">Employee Benefits</span>
+    <span class="experience-card__content"><small>EPIC Insurance Brokers &amp; Consultants</small><strong>Client Coordinator</strong><span>Supported large-group accounts through reporting, renewal deliverables, stakeholder coordination, and benefits administration.</span></span>
+    <span class="experience-card__action">View experience <b>↗</b></span>
+  </button>
 
-### Suvaun, Acrisure LLC Agency Partner  
-**Marketing Account Coordinator**  
-*March 2020 – January 2024*
+  <button class="experience-card" type="button" data-experience-open="experience-suvaun">
+    <span class="experience-card__date">2020–2024</span><span class="experience-card__tag">Account Strategy</span>
+    <span class="experience-card__content"><small>Suvaun, Acrisure LLC Agency Partner</small><strong>Marketing Account Coordinator</strong><span>Managed RFP marketing, carrier relationships, broker implementation, and user training.</span></span>
+    <span class="experience-card__action">View experience <b>↗</b></span>
+  </button>
 
-- Spearheaded and led comprehensive pre-sale marketing initiatives for small accounts, driving targeted outreach strategies that effectively captured and engaged prospective clients while maximizing lead conversion.
-- Strategically managed the end-to-end Request for Proposal (RFP) marketing process, guiding broker users from initial engagement through successful implementation, ensuring a seamless and efficient experience that met client expectations.
-- Cultivated and maintained strong, strategic relationships with a diverse range of carrier vendors, serving as a trusted liaison between carriers and clients, facilitating clear communication, negotiation, and conflict resolution.
-- Collaborated cross-functionally with an international outsourcing team, providing expert guidance on leveraging advanced features within Suvaun, overseeing task execution to ensure accuracy, efficiency, and adherence to best practices.
-- Delivered comprehensive training and onboarding programs for both internal team members and external broker partners, enhancing user proficiency and fostering a strong foundation for long-term success.
+  <button class="experience-card" type="button" data-experience-open="experience-pinnacle">
+    <span class="experience-card__date">2019–2020</span><span class="experience-card__tag">Benefits Operations</span>
+    <span class="experience-card__content"><small>L.A. Pinnacle Insurance Agency</small><strong>Benefits Marketing &amp; Admin Assistant</strong><span>Supported plan administration, client service, renewals, carrier coordination, and reporting.</span></span>
+    <span class="experience-card__action">View experience <b>↗</b></span>
+  </button>
+</div>
 
-### L.A. Pinnacle Insurance Agency  
-**Benefits Marketing & Admin Assistant**  
-*April 2019 – March 2020*
+<dialog class="experience-dialog" id="experience-epic">
+  <button class="experience-dialog__close" type="button" aria-label="Close experience details" data-experience-close>&times;</button>
+  <p class="portfolio-eyebrow">January 2024 – August 2024</p>
+  <h2>EPIC Insurance Brokers &amp; Consultants</h2>
+  <h3>Client Coordinator, Employee Benefits</h3>
+  <ul>
+    <li>Served as the primary point of contact for Client Executives and coordinated requested deliverables, compliance processes, and client marketing materials.</li>
+    <li>Managed approximately 15 large-group accounts with more than 500 employees each, alongside multiple smaller divisions.</li>
+    <li>Resolved complex benefit claims, eligibility concerns, and policy inquiries while maintaining strong client relationships.</li>
+    <li>Coordinated with clients, insurance carriers, and third-party administrators to support clear communication and timely execution.</li>
+    <li>Maintained policy details, commission structures, and documentation in BenefitPoint to support compliance and data integrity.</li>
+    <li>Created financial reports, renewal presentations, and client brochures using benchmarking, commission, and marketing insights.</li>
+  </ul>
+</dialog>
 
-- Supported administration of group and individual health insurance plans, ensuring accurate enrollments, terminations, and policy updates.
-- Managed day-to-day client and employee requests, including claims support, eligibility verification, and billing inquiries.
-- Coordinated with carriers and vendors to resolve coverage issues and maintain compliance with policy requirements.
-- Prepared renewal comparisons, rate summaries, and marketing packages to support broker recommendations.
-- Utilized Excel and Word & Brown to organize client data, track plan details, and streamline reporting processes.
+<dialog class="experience-dialog" id="experience-suvaun">
+  <button class="experience-dialog__close" type="button" aria-label="Close experience details" data-experience-close>&times;</button>
+  <p class="portfolio-eyebrow">March 2020 – January 2024</p>
+  <h2>Suvaun, Acrisure LLC Agency Partner</h2>
+  <h3>Marketing Account Coordinator</h3>
+  <ul>
+    <li>Led pre-sale marketing initiatives for small accounts, supporting targeted outreach and prospective-client engagement.</li>
+    <li>Managed the end-to-end Request for Proposal marketing process from broker engagement through implementation.</li>
+    <li>Maintained strategic carrier relationships and served as a liaison between carriers and clients.</li>
+    <li>Collaborated with an international outsourcing team, guiding platform use and overseeing task accuracy and efficiency.</li>
+    <li>Delivered training and onboarding for internal team members and external broker partners.</li>
+  </ul>
+</dialog>
+
+<dialog class="experience-dialog" id="experience-pinnacle">
+  <button class="experience-dialog__close" type="button" aria-label="Close experience details" data-experience-close>&times;</button>
+  <p class="portfolio-eyebrow">April 2019 – March 2020</p>
+  <h2>L.A. Pinnacle Insurance Agency</h2>
+  <h3>Benefits Marketing &amp; Admin Assistant</h3>
+  <ul>
+    <li>Supported administration of group and individual health plans, including enrollments, terminations, and policy updates.</li>
+    <li>Managed client and employee requests involving claims, eligibility, and billing.</li>
+    <li>Coordinated with carriers and vendors to resolve coverage issues and maintain policy compliance.</li>
+    <li>Prepared renewal comparisons, rate summaries, and marketing packages for broker recommendations.</li>
+    <li>Used Excel and Word &amp; Brown to organize client data, track plan details, and streamline reporting.</li>
+  </ul>
+</dialog>
+
+<script>
+document.querySelectorAll('[data-experience-open]').forEach((card) => {
+  card.addEventListener('click', () => document.getElementById(card.dataset.experienceOpen)?.showModal());
+});
+document.querySelectorAll('.experience-dialog').forEach((dialog) => {
+  dialog.querySelector('[data-experience-close]')?.addEventListener('click', () => dialog.close());
+  dialog.addEventListener('click', (event) => {
+    if (event.target === dialog) dialog.close();
+  });
+});
+</script>
+```
 
 ## Skills
 
