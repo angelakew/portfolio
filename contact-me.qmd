@@ -16,5 +16,5 @@ body-classes: contact-page
   <a class="contact-card" href="https://www.linkedin.com/in/qianangela1/" target="_blank" rel="noopener"><span class="contact-card__icon">in</span><small>LinkedIn</small><strong>Connect professionally</strong><p>Follow my work and professional updates.</p><b>View my profile ↗</b></a>
 </div>
 
-<section class="contact-note"><span>Current interests</span><p>I’m especially interested in opportunities across marketing analytics, benefits analytics, client strategy, and account management—roles where data and communication come together to create real business impact.</p><small>I typically respond within 24–48 hours.</small></section>
+<section class="contact-note"><span>Current interests</span><p>I’m especially interested in opportunities across marketing analytics, benefits analytics, client strategy, and account management, particularly roles where data and communication come together to create real business impact.</p><small>I typically respond within 24–48 hours.</small></section>
 ```
