@@ -1,5 +1,6 @@
 ---
 title: "Professional Resume"
+toc: false
 ---
 
 ::: {.resume-download}
@@ -14,15 +15,12 @@ Digital Marketing Analytics graduate student with a background in employee benef
 
 ## Education
 
-**California State Polytechnic University, Pomona**  
-M.S. Digital Marketing (Marketing Analytics)  
-
-- August 2024 – May 2026
-
-**University of California, San Diego**  
-B.A. Communications (Marketing and Public Relations)
-
-- September 2016 – March 2019
+```{=html}
+<div class="resume-info-grid resume-info-grid--two resume-education-grid">
+  <article class="resume-info-card resume-info-card--featured"><span>2024–2026</span><h3>California State Polytechnic University, Pomona</h3><p>M.S. Digital Marketing<br>Marketing Analytics</p><small>Expected May 2026</small></article>
+  <article class="resume-info-card"><span>2016–2019</span><h3>University of California, San Diego</h3><p>B.A. Communications<br>Marketing and Public Relations</p><small>Completed March 2019</small></article>
+</div>
+```
 
 ## Experience
 
@@ -107,24 +105,29 @@ document.querySelectorAll('.experience-dialog').forEach((dialog) => {
 
 ## Skills
 
-- **Analytics:** GA4, BigQuery, SQL, R, Quarto, Looker Studio
-- **Marketing:** Google Ads, campaign analysis, conversion tracking, reporting
-- **Employee Benefits:** RFP support, renewal analysis, rate guides, client reporting
-- **Platforms:** BenefitPoint, EASE, Employee Navigator, Microsoft Office, SharePoint, Asana
+```{=html}
+<div class="resume-info-grid resume-info-grid--four">
+  <article class="resume-info-card"><span>01</span><h3>Analytics</h3><p>GA4, BigQuery, SQL, R, Quarto, and Looker Studio</p></article>
+  <article class="resume-info-card"><span>02</span><h3>Marketing</h3><p>Google Ads, campaign analysis, conversion tracking, and reporting</p></article>
+  <article class="resume-info-card"><span>03</span><h3>Employee Benefits</h3><p>RFP support, renewal analysis, rate guides, and client reporting</p></article>
+  <article class="resume-info-card"><span>04</span><h3>Platforms</h3><p>BenefitPoint, EASE, Employee Navigator, Microsoft Office, SharePoint, and Asana</p></article>
+</div>
+```
 
 ## Certifications
 
-**California Department of Insurance**  
-
-Issued: 2019
-Expires: 2027
-Accident, Health & Life Agent License #0N12658
-
-**CPP Data Wrangling & Visualization**
-
-Issued Fall 2024
-Bootcamp Certification
+```{=html}
+<div class="resume-info-grid resume-info-grid--two">
+  <article class="resume-info-card resume-info-card--featured"><span>License</span><h3>California Department of Insurance</h3><p>Accident, Health &amp; Life Agent<br>License #0N12658</p><small>Issued 2019 · Expires 2027</small></article>
+  <article class="resume-info-card"><span>Certificate</span><h3>CPP Data Wrangling &amp; Visualization</h3><p>Bootcamp Certification</p><small>Issued Fall 2024</small></article>
+</div>
+```
 
 ## Languages
 
-English and Mandarin Chinese
+```{=html}
+<div class="resume-info-grid resume-info-grid--two resume-language-grid">
+  <article class="resume-info-card"><span>01</span><h3>English</h3><p>Professional proficiency</p></article>
+  <article class="resume-info-card"><span>02</span><h3>Mandarin Chinese</h3><p>Bilingual communication</p></article>
+</div>
+```
