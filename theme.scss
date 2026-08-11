@@ -374,6 +374,8 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
 .portfolio-button { display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem; min-height: 48px; padding: 0.75rem 1rem; border-radius: 10px; font-size: 0.95rem; font-weight: 800; line-height: 1.2; white-space: nowrap; transition: transform 160ms ease, box-shadow 160ms ease; }
 .portfolio-button:hover { transform: translateY(-2px); text-decoration: none; }
 .portfolio-button--primary { background: var(--blue-700); color: #fff !important; box-shadow: 0 10px 25px rgba(47, 102, 144, 0.2); }
+.portfolio-button--primary:hover,
+.portfolio-button--primary:focus-visible { background: #245677; color: #fff !important; }
 .portfolio-button--secondary { border: 1px solid var(--blue-300); background: rgba(255,255,255,0.72); color: var(--blue-700) !important; }
 .portfolio-stats { display: flex; flex-wrap: wrap; gap: clamp(1.25rem, 3vw, 2.5rem); margin-top: 2.4rem; }
 .portfolio-stats div { display: grid; gap: 0.15rem; }
