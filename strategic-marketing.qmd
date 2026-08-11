@@ -17,6 +17,7 @@ These selected projects bring together strategic marketing, campaign development
     data-description="A connected ecommerce, campaign, retail media, and analytics plan designed to move customers from product discovery to convenient store pickup."
     data-url="https://ibm6300-final-deliverables.netlify.app/">
     <span class="project-card__number">01</span><span class="project-card__tag">Featured</span>
+    <span class="card-icon" aria-hidden="true"><i class="bi bi-shop"></i></span>
     <span class="project-card__content"><small>Consulting · Ecommerce · Analytics</small><strong>CPP Farm Store Omnichannel Consulting</strong><span>A connected customer journey from campus-grown discovery to pickup.</span></span>
     <span class="project-card__action">Explore project <b>↗</b></span>
   </button>
@@ -28,6 +29,7 @@ These selected projects bring together strategic marketing, campaign development
     data-url="https://www.canva.com/design/DAHCM607PYQ/takCMRSBodfQDve6leJxRw/view"
     data-embed="https://www.canva.com/design/DAHCM607PYQ/takCMRSBodfQDve6leJxRw/view?embed">
     <span class="project-card__number">02</span><span class="project-card__tag">Capstone</span>
+    <span class="card-icon" aria-hidden="true"><i class="bi bi-bullseye"></i></span>
     <span class="project-card__content"><small>Google Ads · Strategy</small><strong>TRI Campaign Optimization</strong><span>Search-intent strategy for higher-quality nonprofit conversions.</span></span>
     <span class="project-card__action">Preview presentation <b>↗</b></span>
   </button>
@@ -38,6 +40,7 @@ These selected projects bring together strategic marketing, campaign development
     data-description="An R and Quarto analysis of the factors influencing animal adoption outcomes, including data preparation, exploratory analysis, correlation analysis, and logistic regression."
     data-url="https://angelakew.github.io/dataset-project/">
     <span class="project-card__number">03</span><span class="project-card__tag">R + Quarto</span>
+    <span class="card-icon" aria-hidden="true"><i class="bi bi-bar-chart-line"></i></span>
     <span class="project-card__content"><small>EDA · Regression · Storytelling</small><strong>Animal Shelter Adoption Analysis</strong><span>Turning a real-world dataset into clear adoption insights.</span></span>
     <span class="project-card__action">Explore analysis <b>↗</b></span>
   </button>
@@ -49,6 +52,7 @@ These selected projects bring together strategic marketing, campaign development
     data-url="https://www.canva.com/design/DAG0Z0uNRSI/Dx80MtkX8hCFYJuuR5uazQ/view"
     data-embed="https://www.canva.com/design/DAG0Z0uNRSI/Dx80MtkX8hCFYJuuR5uazQ/view?embed">
     <span class="project-card__number">04</span><span class="project-card__tag">Strategy</span>
+    <span class="card-icon" aria-hidden="true"><i class="bi bi-lightbulb"></i></span>
     <span class="project-card__content"><small>Consumer Behavior · Digital</small><strong>Beyond Meat Competitive Strategy</strong><span>Digital tactics designed to shift perception and purchase behavior.</span></span>
     <span class="project-card__action">Preview report <b>↗</b></span>
   </button>
@@ -60,6 +64,7 @@ These selected projects bring together strategic marketing, campaign development
     data-url="https://www.canva.com/design/DAGkUQwReMc/5_qGP17wO9vsM57_6jTO9w/view"
     data-embed="https://www.canva.com/design/DAGkUQwReMc/5_qGP17wO9vsM57_6jTO9w/view?embed">
     <span class="project-card__number">05</span><span class="project-card__tag">Machine Learning</span>
+    <span class="card-icon" aria-hidden="true"><i class="bi bi-cpu"></i></span>
     <span class="project-card__content"><small>Forecasting · ANN · SVR</small><strong>Construction Demand Forecasting</strong><span>Comparing statistical and machine-learning forecasting methods.</span></span>
     <span class="project-card__action">Preview presentation <b>↗</b></span>
   </button>
@@ -71,6 +76,7 @@ These selected projects bring together strategic marketing, campaign development
     data-url="https://docs.google.com/presentation/d/e/2PACX-1vTAZQnaQ8l4DFx9pQbP7rfbFhLSctI5vBwQoZYPney5pl4jzJgvWSaYgOpJYJNqrZ40331E_kpX-sgj/pub"
     data-embed="https://docs.google.com/presentation/d/e/2PACX-1vTAZQnaQ8l4DFx9pQbP7rfbFhLSctI5vBwQoZYPney5pl4jzJgvWSaYgOpJYJNqrZ40331E_kpX-sgj/pubembed?start=false&amp;loop=false&amp;delayms=3000">
     <span class="project-card__number">06</span><span class="project-card__tag">Campaign</span>
+    <span class="card-icon" aria-hidden="true"><i class="bi bi-megaphone"></i></span>
     <span class="project-card__content"><small>Social · Paid Media · Brand</small><strong>Dave’s Hot Chicken Campaign</strong><span>An integrated strategy for reach, engagement, and loyalty.</span></span>
     <span class="project-card__action">Preview presentation <b>↗</b></span>
   </button>
