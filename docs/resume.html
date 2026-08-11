@@ -38,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-549806ee2085284f45b00abea8c6df48.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-c9b1a2b150707826a92a18bfb389f2df.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-0c6072e16a0f41d2c69507f0dbc8cdbd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -167,7 +167,10 @@ gtag('config', 'G-0YPBS9J7F2', { 'anonymize_ip': true});
 </header>
 
 
-<p>You can view or download a PDF version of my resume <a href="resume/angela-resume.pdf">here</a>.</p>
+<div class="resume-download">
+<p><span>Resume PDF</span></p>
+<p><a href="resume/angela-resume.pdf">View or download my complete resume →</a></p>
+</div>
 <section id="professional-summary" class="level2">
 <h2 class="anchored" data-anchor-id="professional-summary">Professional Summary</h2>
 <p>Digital Marketing Analytics graduate student with a background in employee benefits, client relations, reporting, and financial analysis. Experienced in supporting large group accounts, preparing client-facing deliverables, and translating complex information into clear, actionable insights. Interested in applying data, analytics, and technology to improve strategy and reporting within the insurance and employee benefits space.</p>
@@ -249,6 +252,61 @@ B.A. Communications (Marketing and Public Relations)</p>
 </section>
 
 </main> <!-- /main -->
+<div class="project-modal" id="project-modal" aria-hidden="true">
+  <div class="project-modal__backdrop" data-project-close=""></div>
+  <section class="project-modal__panel" role="dialog" aria-modal="true" aria-labelledby="project-modal-title">
+    <button class="project-modal__close" type="button" aria-label="Close project preview" data-project-close="">×</button>
+    <div class="project-modal__copy">
+      <span class="project-modal__tag" id="project-modal-tag"></span>
+      <h2 id="project-modal-title"></h2>
+      <p id="project-modal-description"></p>
+      <a class="project-modal__link" id="project-modal-link" target="_blank" rel="noopener">Open full project <span aria-hidden="true">↗</span></a>
+    </div>
+    <div class="project-modal__preview">
+      <iframe id="project-modal-frame" title="Project preview" loading="lazy" allowfullscreen=""></iframe>
+    </div>
+  </section>
+</div>
+<script>
+(() => {
+  const modal = document.getElementById('project-modal');
+  if (!modal) return;
+  const title = document.getElementById('project-modal-title');
+  const tag = document.getElementById('project-modal-tag');
+  const description = document.getElementById('project-modal-description');
+  const link = document.getElementById('project-modal-link');
+  const frame = document.getElementById('project-modal-frame');
+  let opener;
+
+  const closeModal = () => {
+    modal.classList.remove('is-open');
+    modal.setAttribute('aria-hidden', 'true');
+    document.body.classList.remove('modal-open');
+    frame.src = 'about:blank';
+    opener?.focus();
+  };
+
+  document.querySelectorAll('[data-project-preview]').forEach((card) => {
+    card.addEventListener('click', () => {
+      opener = card;
+      title.textContent = card.dataset.title;
+      tag.textContent = card.dataset.tag;
+      description.textContent = card.dataset.description;
+      link.href = card.dataset.url;
+      frame.src = card.dataset.embed || card.dataset.url;
+      modal.classList.add('is-open');
+      modal.setAttribute('aria-hidden', 'false');
+      document.body.classList.add('modal-open');
+      modal.querySelector('.project-modal__close').focus();
+    });
+  });
+
+  modal.querySelectorAll('[data-project-close]').forEach((button) => button.addEventListener('click', closeModal));
+  document.addEventListener('keydown', (event) => {
+    if (event.key === 'Escape' && modal.classList.contains('is-open')) closeModal();
+  });
+})();
+</script>
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

@@ -1,25 +1,20 @@
 ---
-title: "Contact Me"
+title: "Let’s Connect"
+toc: false
+body-classes: contact-page
 ---
 
-## Let’s Connect
+```{=html}
+<section class="contact-hero">
+  <p class="portfolio-eyebrow">Contact</p>
+  <h1>Let’s start a conversation.</h1>
+  <p>Whether you’re a recruiter, hiring manager, or working in analytics, marketing, or employee benefits, I’m always happy to connect.</p>
+</section>
 
-Whether you’re a recruiter, hiring manager, or just someone in the same space, I’m always happy to connect.
+<div class="contact-grid">
+  <a class="contact-card" href="mailto:angelaqian168n@yahoo.com"><span class="contact-card__icon">@</span><small>Email</small><strong>Send me a message</strong><p>The best way to reach me directly.</p><b>angelaqian168n@yahoo.com ↗</b></a>
+  <a class="contact-card" href="https://www.linkedin.com/in/qianangela1/" target="_blank" rel="noopener"><span class="contact-card__icon">in</span><small>LinkedIn</small><strong>Connect professionally</strong><p>Follow my work and professional updates.</p><b>View my profile ↗</b></a>
+</div>
 
-<a href="mailto:angelaqian168n@yahoo.com">
-  <img src="../images/yahoomail.png" width="25" style="vertical-align: middle;">
-</a> <strong>Email</strong>
-
-<a href="https://www.linkedin.com/in/qianangela1/" target="_blank">
-  <img src="../images/linkedin.png" width="25" style="vertical-align: middle;">
-</a> <strong>LinkedIn</strong>
-
----
-
-I’m especially interested in roles in marketing analytics, benefits analytics, and account management, where I can combine data, strategy, and implementation to drive real business impact.
-
-::: {.callout-tip}
-### Quick Note
-
-The best way to reach me is via email or LinkedIn. I usually respond within 24–48 hours.
-:::
+<section class="contact-note"><span>Current interests</span><p>I’m especially interested in opportunities across marketing analytics, benefits analytics, client strategy, and account management—roles where data and communication come together to create real business impact.</p><small>I typically respond within 24–48 hours.</small></section>
+```
