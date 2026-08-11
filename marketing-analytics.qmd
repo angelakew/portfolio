@@ -47,7 +47,7 @@ Selected analytics work for the Trauma Resource Institute (TRI), translating Goo
     data-description="My role focused on developing the budget allocation and campaign timeline for display advertising initiatives supporting TRI’s 20th Anniversary Conference, helping translate the strategy into a practical, phased plan."
     data-url="https://www.canva.com/design/DAHNnLMKIQ8/aE9KOUUXyh_dLx8sfgV4LQ/view"
     data-embed="https://www.canva.com/design/DAHNnLMKIQ8/aE9KOUUXyh_dLx8sfgV4LQ/view?embed">
-    <span class="project-card__number">04</span><span class="project-card__tag">20th Anniversary</span>
+    <span class="project-card__number">04</span><span class="project-card__tag">Presentation</span>
     <span class="project-card__content"><small>Display Advertising · Budget · Timeline</small><strong>TRI 20th Anniversary Conference Efforts</strong><span>My role in planning the display ads budget, rollout timeline, and supporting strategy initiatives.</span></span>
     <span class="project-card__action">Preview my work <b>↗</b></span>
   </button>
