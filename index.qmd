@@ -1,58 +1,75 @@
 ---
-title: "Welcome to my Portfolio"
+title: "Angela Qian"
+toc: false
+body-classes: home-page
 ---
 
-::: {.columns}
+```{=html}
+<section class="portfolio-hero">
+  <div class="portfolio-hero__copy">
+    <p class="portfolio-eyebrow">Digital Marketing Analytics · Client Strategy</p>
+    <h1>Turning complex data into clear, useful stories.</h1>
+    <p class="portfolio-lead">I’m Angela, a Digital Marketing Analytics graduate student working at the intersection of data, technology, marketing, and insurance.</p>
+    <div class="portfolio-actions">
+      <a class="portfolio-button portfolio-button--primary" href="strategic-marketing.html">Explore my projects <span aria-hidden="true">↗</span></a>
+      <a class="portfolio-button portfolio-button--secondary" href="resume.html">View my resume</a>
+    </div>
+    <div class="portfolio-stats" aria-label="Professional highlights">
+      <div><strong>7+</strong><span>portfolio projects</span></div>
+      <div><strong>5+</strong><span>analytics platforms</span></div>
+      <div><strong>MS</strong><span>Marketing Analytics</span></div>
+    </div>
+  </div>
+  <div class="portfolio-hero__visual">
+    <div class="portfolio-portrait-wrap">
+      <img src="images/headshot.png" alt="Angela Qian" class="portfolio-portrait">
+      <span class="portfolio-status">Open to opportunities</span>
+    </div>
+  </div>
+</section>
 
-::: {.column width="30%"}
+<section class="portfolio-section portfolio-intro">
+  <div>
+    <p class="portfolio-eyebrow">About me</p>
+    <h2>Analytics with a client-first point of view.</h2>
+  </div>
+  <div class="portfolio-intro__copy">
+    <p>I’m pursuing a <strong>Master of Science in Digital Marketing (Marketing Analytics)</strong> at Cal Poly Pomona after earning my <strong>BA in Communications</strong> from UC San Diego.</p>
+    <p>My background in employee benefits and client relations shapes how I approach analytics: start with the business question, make the information understandable, and turn the findings into action.</p>
+  </div>
+</section>
 
-![](images/headshot.png){.profile-img .hero-adjust width=260px}
+<section class="portfolio-section">
+  <div class="portfolio-section__heading">
+    <div><p class="portfolio-eyebrow">What I bring</p><h2>A bridge between data, strategy, and people.</h2></div>
+    <p>I combine analytical tools with clear communication to help teams make more confident decisions.</p>
+  </div>
+  <div class="capability-grid">
+    <article><span>01</span><h3>Marketing Analytics</h3><p>Evaluate customer behavior, campaign performance, and conversion journeys using data that teams can act on.</p></article>
+    <article><span>02</span><h3>Client Strategy</h3><p>Translate complex findings into focused recommendations, reports, presentations, and stakeholder-ready stories.</p></article>
+    <article><span>03</span><h3>Technical Execution</h3><p>Build dashboards, analyses, and interactive experiences with GA4, SQL, R, Quarto, Tableau, and Looker Studio.</p></article>
+  </div>
+</section>
 
-:::
+<section class="portfolio-section featured-work">
+  <div class="portfolio-section__heading">
+    <div><p class="portfolio-eyebrow">Selected work</p><h2>Projects designed to be explored.</h2></div>
+    <a class="portfolio-text-link" href="strategic-marketing.html">See all projects ↗</a>
+  </div>
+  <div class="featured-work__grid">
+    <a href="strategic-marketing.html" class="featured-work__card featured-work__card--large"><small>Consulting · Ecommerce · Analytics</small><h3>CPP Farm Store Omnichannel Strategy</h3><p>A connected plan for discovery, ordering, pickup, campaigns, and measurement.</p><span>Explore project ↗</span></a>
+    <a href="marketing-analytics.html" class="featured-work__card"><small>Google Ad Grants</small><h3>TRI Client Analytics</h3><p>Dashboards, apps, and presentations translating search data into recommendations.</p><span>Explore analytics ↗</span></a>
+    <a href="strategic-marketing.html" class="featured-work__card"><small>R · Regression · Storytelling</small><h3>Animal Adoption Analysis</h3><p>A real-world dataset transformed into clear insights about adoption outcomes.</p><span>Explore analysis ↗</span></a>
+  </div>
+</section>
 
-::: {.column width="70%" style="padding-left: 2rem;"}
+<section class="portfolio-section tools-section">
+  <p class="portfolio-eyebrow">Tools & strengths</p>
+  <div class="skill-cloud" aria-label="Tools and skills"><span>GA4</span><span>Google Ads</span><span>BigQuery</span><span>SQL</span><span>R</span><span>Quarto</span><span>Tableau</span><span>Looker Studio</span><span>SPSS</span><span>Data Visualization</span><span>Client Reporting</span><span>Stakeholder Communication</span></div>
+</section>
 
-# Hi, I’m Angela! {.hero-name}
-
-:::
-
-I’m a **Digital Marketing Analytics graduate student** pursuing opportunities at the intersection of **data, technology, and insurance**. With a foundation in client relations, I specialize in transforming complex data into clear, actionable insights that support strategic decision-making and improve customer outcomes.
-
-:::
-
-## About Me
-
-I’m currently pursuing a <span class="highlight">Master of Science in Digital Marketing (Marketing Analytics)</span> at Cal Poly Pomona, and hold a <span class="highlight">Bachelor of Arts in Communications</span> from UC San Diego. I have a background in client relations within the insurance industry, where I supported large group accounts and developed experience in data analysis, reporting, and strategic decision-making.
-
-Outside of work, I enjoy exploring new food spots, attending concerts and music festivals, and spending time with my two cats. I love experiences that bridge creativity, community, and culture.
-
-## What I Do
-
-I focus on answering questions like:
-
-- How can data improve client strategy and decision-making in employee benefits?
-- How can we better analyze plan performance, costs, and trends across large group accounts?
-- How can reporting be streamlined to deliver clearer insights for clients and stakeholders?
-- How can technology and analytics tools be used to modernize traditionally manual processes?
-- How can we turn complex benefits data into clear, actionable insights?
-
-## Tools & Skills
-
-- Google Analytics 4 (GA4)
-- Google Ads
-- BigQuery and SQL
-- R and Quarto
-- Tableau
-- Hubspot
-- SPSS
-- Data visualization
-- Marketing analytics
-- Client reporting and stakeholder communication
-
-## Let’s Connect
-
-<a href="mailto:angelaqian168n@yahoo.com">
-  <img src="images/yahoomail.png" width="30" style="vertical-align: middle;">
-</a> <a href="https://www.linkedin.com/in/qianangela1/" target="_blank">
-  <img src="images/linkedin.png" width="30" style="vertical-align: middle;">
-</a>
+<section class="portfolio-cta">
+  <div><p class="portfolio-eyebrow">Let’s connect</p><h2>Interested in data-driven, client-centered work?</h2></div>
+  <div class="portfolio-actions"><a class="portfolio-button portfolio-button--primary" href="mailto:angelaqian168n@yahoo.com">Email me</a><a class="portfolio-button portfolio-button--secondary" href="https://www.linkedin.com/in/qianangela1/" target="_blank" rel="noopener">LinkedIn ↗</a></div>
+</section>
+```

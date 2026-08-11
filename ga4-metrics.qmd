@@ -11,13 +11,13 @@ This page summarizes key Google Analytics 4 (GA4) metrics via DataStudio for my 
 
 ## Key Metrics
 
-<div style="width: 100%; max-width: 1200px; margin: auto;">
+<div class="analytics-frame">
   <iframe
     width="100%"
     height="700"
     src="https://datastudio.google.com/embed/reporting/bf867064-675c-46d7-81fc-7af7a00a96d9/page/6x3xF"
     frameborder="0"
-    style="border:0; border-radius: 12px;"
+    style="border:0;"
     allowfullscreen
     sandbox="allow-storage-access-by-user-activation allow-scripts allow-same-origin allow-popups allow-popups-to-escape-sandbox">
   </iframe>

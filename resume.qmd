@@ -2,7 +2,11 @@
 title: "Professional Resume"
 ---
 
-You can view or download a PDF version of my resume [here](resume/angela-resume.pdf).
+::: {.resume-download}
+<span>Resume PDF</span>
+
+[View or download my complete resume →](resume/angela-resume.pdf)
+:::
 
 ## Professional Summary
 
