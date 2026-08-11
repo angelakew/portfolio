@@ -13,7 +13,7 @@ These selected projects bring together strategic marketing, campaign development
 <div class="project-grid">
   <button class="project-card project-card--featured" type="button" data-project-preview
     data-title="CPP Farm Store Omnichannel Consulting"
-    data-tag="Consulting · 2026"
+    data-tag="Consulting · Summer 2026"
     data-description="A connected ecommerce, campaign, retail media, and analytics plan designed to move customers from product discovery to convenient store pickup."
     data-url="https://ibm6300-final-deliverables.netlify.app/">
     <span class="project-card__number">01</span><span class="project-card__tag">Featured</span>
