@@ -320,6 +320,8 @@ pre code {
 .project-modal__copy h2 { margin-top: 1rem; border: 0; font-size: 2.1rem; }
 .project-modal__copy p { color: #5f7180; line-height: 1.65; }
 .project-modal__link { display: inline-block; margin-top: 1rem; padding: 0.8rem 1rem; border-radius: 10px; background: #2f6690; color: #fff !important; }
+.project-modal__link:hover,
+.project-modal__link:focus-visible { background: #245677; color: #fff !important; text-decoration: none; }
 .project-modal__preview { min-height: 620px; background: #dff3ff; }
 .project-modal__preview iframe { width: 100%; height: 100%; min-height: 620px; border: 0; background: white; }
 body.modal-open { overflow: hidden; }
@@ -403,6 +405,10 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
 .featured-work__card { min-height: 250px; display: flex; flex-direction: column; padding: 1.7rem; border: 1px solid var(--blue-300); border-radius: 18px; background: rgba(255,255,255,.78); color: var(--ink) !important; transition: transform 170ms ease, box-shadow 170ms ease; }
 .featured-work__card--large { grid-row: span 2; min-height: 516px; background: linear-gradient(155deg, #2f6690, #5798ca); color: #fff !important; }
 .featured-work__card:hover { transform: translateY(-4px); box-shadow: 0 20px 45px rgba(47,102,144,.16); text-decoration: none; }
+.featured-work__card:hover,
+.featured-work__card:focus-visible { color: var(--ink) !important; }
+.featured-work__card--large:hover,
+.featured-work__card--large:focus-visible { color: #fff !important; }
 .featured-work__card small { color: var(--blue-600); font-weight: 800; letter-spacing: .08em; text-transform: uppercase; }
 .featured-work__card--large small { color: #dff3ff; }
 .featured-work__card h3 { margin: auto 0 .75rem; color: inherit !important; font-size: 1.75rem; }
@@ -423,6 +429,8 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
 .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; }
 .contact-card { min-height: 320px; display: flex; flex-direction: column; padding: 1.7rem; border: 1px solid var(--blue-200); border-radius: 20px; background: linear-gradient(145deg,#fff,#f1f9ff); color: var(--ink) !important; transition: transform 170ms ease, box-shadow 170ms ease; }
 .contact-card:hover { transform: translateY(-5px); text-decoration: none; box-shadow: 0 20px 45px rgba(47,102,144,.15); }
+.contact-card:hover,
+.contact-card:focus-visible { color: var(--ink) !important; }
 .contact-card__icon { width: 2.8rem; height: 2.8rem; display: grid; place-items: center; border-radius: 50%; background: var(--blue-700); color: #fff; font-weight: 800; }
 .contact-card small { margin: auto 0 .35rem; color: var(--blue-600); font-weight: 800; letter-spacing: .1em; text-transform: uppercase; }
 .contact-card strong { font-size: 1.5rem; }
@@ -437,6 +445,8 @@ main > header .title { font-size: clamp(2.4rem, 5vw, 4.2rem); }
 .resume-download p { margin: 0; }
 .resume-download > span { color: var(--blue-700); font-weight: 800; }
 .resume-download a { padding: .65rem .85rem; border-radius: 9px; background: var(--blue-700); color: #fff !important; }
+.resume-download a:hover,
+.resume-download a:focus-visible { background: #245677; color: #fff !important; text-decoration: none; }
 .analytics-frame { width: 100%; max-width: 1200px; margin: 1.5rem auto 3rem; overflow: hidden; border: 10px solid #dff3ff; border-radius: 20px; box-shadow: 0 20px 50px rgba(47,102,144,.14); }
 
 .experience-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; margin: 1.5rem 0 3rem; }
