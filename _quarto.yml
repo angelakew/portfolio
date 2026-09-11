@@ -24,5 +24,6 @@ format:
     theme:
       - cosmo
       - theme.scss
+      - mobile-fixes.scss
     toc: true
     include-after-body: includes/project-modal.html
