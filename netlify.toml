@@ -1,5 +1,5 @@
 [build]
-  command = "quarto render"
+  command = "/tmp/quarto/bin/quarto render"
   publish = "docs"
 
 [build.environment]
