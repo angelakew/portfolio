@@ -1,6 +1,9 @@
 project:
   type: website
   output-dir: docs
+  render:
+    - "*.qmd"
+    - "!TRI-adgrants_dashboard.qmd"
 
 website:
   google-analytics: G-0YPBS9J7F2
