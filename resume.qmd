@@ -11,13 +11,13 @@ toc: false
 
 ## Professional Summary
 
-Digital Marketing Analytics graduate student with a background in employee benefits, client relations, reporting, and financial analysis. Experienced in supporting large group accounts, preparing client-facing deliverables, and translating complex information into clear, actionable insights. Interested in applying data, analytics, and technology to improve strategy and reporting within the insurance and employee benefits space.
+Digital Marketing Analytics and employee benefits professional with an M.S. in Digital Marketing and a background in client relations, reporting, financial analysis, and insurance operations. Experienced in supporting large group accounts, preparing client-facing deliverables, and translating complex information into clear, actionable insights. Combines industry experience with graduate-level training in marketing analytics, digital measurement, data visualization, and campaign analysis to support data-driven strategy and decision-making.
 
 ## Education
 
 ```{=html}
 <div class="resume-info-grid resume-info-grid--two resume-education-grid">
-  <article class="resume-info-card resume-info-card--featured"><span>2024–2026</span><h3>California State Polytechnic University, Pomona</h3><p>M.S. Digital Marketing<br>Marketing Analytics</p><small>Expected May 2026</small></article>
+  <article class="resume-info-card resume-info-card--featured"><span>2024–2026</span><h3>California State Polytechnic University, Pomona</h3><p>M.S. Digital Marketing<br>Marketing Analytics</p><small>Completed 2026</small></article>
   <article class="resume-info-card"><span>2016–2019</span><h3>University of California, San Diego</h3><p>B.A. Communications<br>Marketing and Public Relations</p><small>Completed March 2019</small></article>
 </div>
 ```
