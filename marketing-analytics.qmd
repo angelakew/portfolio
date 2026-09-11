@@ -3,11 +3,11 @@ title: "Marketing Analytics for CEP"
 toc: false
 ---
 
-Selected analytics work for the Trauma Resource Institute (TRI), translating Google Ad Grants data into dashboards, diagnostic tools, and client-ready recommendations. Select a card for an interactive preview.
+Completed graduate capstone and client consulting work for the Trauma Resource Institute (TRI), translating Google Ad Grants data into dashboards, diagnostic tools, campaign insights, and client-ready recommendations. Select a card for an interactive preview.
 
 ```{=html}
 <div class="project-toolbar" aria-label="Analytics gallery summary">
-  <span>TRI client work</span><strong>4 interactive projects</strong><span>Google Ad Grants</span>
+  <span>Graduate capstone · TRI client engagement</span><strong>4 interactive projects</strong><span>Google Ad Grants</span>
 </div>
 
 <div class="project-grid project-grid--analytics">
