@@ -9,7 +9,7 @@ body-classes: home-page
   <div class="portfolio-hero__copy">
     <p class="portfolio-eyebrow">Digital Marketing Analytics · Client Strategy</p>
     <h1>Turning complex data into clear, useful stories.</h1>
-    <p class="portfolio-lead">I’m Angela, a Digital Marketing Analytics graduate student working at the intersection of data, technology, marketing, and insurance.</p>
+    <p class="portfolio-lead">I’m Angela, a Digital Marketing Analytics professional with an M.S. in Digital Marketing, working at the intersection of data, technology, marketing, and insurance.</p>
     <div class="portfolio-actions">
       <a class="portfolio-button portfolio-button--primary" href="strategic-marketing.html">Explore my projects <span aria-hidden="true">↗</span></a>
       <a class="portfolio-button portfolio-button--secondary" href="resume.html">View my resume</a>
@@ -17,7 +17,7 @@ body-classes: home-page
     <div class="portfolio-stats" aria-label="Professional highlights">
       <div><strong>7+</strong><span>portfolio projects</span></div>
       <div><strong>5+</strong><span>analytics platforms</span></div>
-      <div><strong>MS</strong><span>Marketing Analytics</span></div>
+      <div><strong>MS</strong><span>Digital Marketing</span></div>
     </div>
   </div>
   <div class="portfolio-hero__visual">
@@ -57,7 +57,7 @@ body-classes: home-page
   </div>
   <div class="featured-work__grid">
     <a href="strategic-marketing.html" class="featured-work__card featured-work__card--large"><small>Consulting · Ecommerce · Analytics</small><h3>CPP Farm Store Omnichannel Strategy</h3><p>A connected plan for discovery, ordering, pickup, campaigns, and measurement.</p><span>Explore project ↗</span></a>
-    <a href="marketing-analytics.html" class="featured-work__card"><small>Google Ad Grants</small><h3>TRI Client Analytics</h3><p>Dashboards, apps, and presentations translating search data into recommendations.</p><span>Explore analytics ↗</span></a>
+    <a href="marketing-analytics.html" class="featured-work__card"><small>Graduate Capstone · Google Ad Grants</small><h3>TRI Client Analytics</h3><p>A completed client engagement using dashboards, interactive tools, campaign analysis, and data-driven recommendations.</p><span>Explore analytics ↗</span></a>
     <a href="strategic-marketing.html" class="featured-work__card"><small>R · Regression · Storytelling</small><h3>Animal Adoption Analysis</h3><p>A real-world dataset transformed into clear insights about adoption outcomes.</p><span>Explore analysis ↗</span></a>
   </div>
 </section>
