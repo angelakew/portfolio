@@ -24,7 +24,7 @@ These selected projects bring together strategic marketing, campaign development
 
   <button class="project-card" type="button" data-project-preview
     data-title="TRI Google Ads Optimization & Campaign Strategy"
-    data-tag="Graduate Capstone · 2025–Present"
+    data-tag="Graduate Capstone · Fall 2025–Summer 2026"
     data-description="A client capstone focused on auditing historical campaign performance, restructuring campaigns around user intent, and aligning keywords, ads, and landing pages for stronger conversions."
     data-url="https://www.canva.com/design/DAHCM607PYQ/takCMRSBodfQDve6leJxRw/view"
     data-embed="https://www.canva.com/design/DAHCM607PYQ/takCMRSBodfQDve6leJxRw/view?embed">
