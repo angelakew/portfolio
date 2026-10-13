@@ -11,7 +11,7 @@ toc: false
 
 ## Professional Summary
 
-Digital Marketing Analytics and employee benefits professional with an M.S. in Digital Marketing and a background in client relations, reporting, financial analysis, and insurance operations. Experienced in supporting large group accounts, preparing client-facing deliverables, and translating complex information into clear, actionable insights. Combines industry experience with graduate-level training in marketing analytics, digital measurement, data visualization, and campaign analysis to support data-driven strategy and decision-making.
+Employee benefits and client service professional with more than five years of insurance experience and a completed M.S. in Digital Marketing (Marketing Analytics). Experienced in supporting the servicing and retention of 15+ large-group accounts (500–3,000 employees), working alongside Client Executives on renewals, carrier coordination, benefits administration, and client reporting. Combines insurance operations experience with graduate training in marketing analytics, digital measurement, and data visualization to turn complex information into clear, actionable insights.
 
 ## Education
 
@@ -30,7 +30,7 @@ Select a role to view the full experience details.
 <div class="experience-grid">
   <button class="experience-card experience-card--featured" type="button" data-experience-open="experience-epic">
     <span class="experience-card__date">2024</span><span class="experience-card__tag">Employee Benefits</span>
-    <span class="experience-card__content"><small>EPIC Insurance Brokers &amp; Consultants</small><strong>Client Coordinator</strong><span>Supported large-group accounts through reporting, renewal deliverables, stakeholder coordination, and benefits administration.</span></span>
+    <span class="experience-card__content"><small>EPIC Insurance Brokers &amp; Consultants</small><strong>Associate Client Manager / Client Coordinator</strong><span>Supported servicing of 15+ large-group accounts (500–3,000 employees) through renewals, reporting, carrier coordination, and benefits administration.</span></span>
     <span class="experience-card__action">View experience <b>↗</b></span>
   </button>
 
@@ -51,10 +51,10 @@ Select a role to view the full experience details.
   <button class="experience-dialog__close" type="button" aria-label="Close experience details" data-experience-close>&times;</button>
   <p class="portfolio-eyebrow">January 2024 – August 2024</p>
   <h2>EPIC Insurance Brokers &amp; Consultants</h2>
-  <h3>Client Coordinator, Employee Benefits</h3>
+  <h3>Associate Client Manager / Client Coordinator, Employee Benefits</h3>
   <ul>
     <li>Served as the primary point of contact for Client Executives and coordinated requested deliverables, compliance processes, and client marketing materials.</li>
-    <li>Managed approximately 15 large-group accounts with more than 500 employees each, alongside multiple smaller divisions.</li>
+    <li>Supported the management and servicing of 15+ large-group accounts (500–3,000 employees), working alongside Client Executives and coordinating with clients, insurance carriers, and third-party administrators.</li>
     <li>Resolved complex benefit claims, eligibility concerns, and policy inquiries while maintaining strong client relationships.</li>
     <li>Coordinated with clients, insurance carriers, and third-party administrators to support clear communication and timely execution.</li>
     <li>Maintained policy details, commission structures, and documentation in BenefitPoint to support compliance and data integrity.</li>
@@ -109,7 +109,7 @@ document.querySelectorAll('.experience-dialog').forEach((dialog) => {
 <div class="resume-info-grid resume-info-grid--four">
   <article class="resume-info-card"><span>01</span><h3>Analytics</h3><p>GA4, BigQuery, SQL, R, Quarto, and Looker Studio</p></article>
   <article class="resume-info-card"><span>02</span><h3>Marketing</h3><p>Google Ads, campaign analysis, conversion tracking, and reporting</p></article>
-  <article class="resume-info-card"><span>03</span><h3>Employee Benefits</h3><p>RFP support, renewal analysis, rate guides, and client reporting</p></article>
+  <article class="resume-info-card"><span>03</span><h3>Employee Benefits</h3><p>RFP coordination, renewals, benefits administration, claims and eligibility support, benchmarking, and client reporting</p></article>
   <article class="resume-info-card"><span>04</span><h3>Platforms</h3><p>BenefitPoint, EASE, Employee Navigator, Microsoft Office, SharePoint, and Asana</p></article>
 </div>
 ```
@@ -127,7 +127,7 @@ document.querySelectorAll('.experience-dialog').forEach((dialog) => {
 
 ```{=html}
 <div class="resume-info-grid resume-info-grid--two resume-language-grid">
-  <article class="resume-info-card"><span>01</span><h3>English</h3><p>Professional proficiency</p></article>
-  <article class="resume-info-card"><span>02</span><h3>Mandarin Chinese</h3><p>Bilingual communication</p></article>
+  <article class="resume-info-card"><span>01</span><h3>English</h3><p>Fluent</p></article>
+  <article class="resume-info-card"><span>02</span><h3>Mandarin Chinese</h3><p>Working proficiency</p></article>
 </div>
 ```

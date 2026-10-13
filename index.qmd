@@ -34,7 +34,7 @@ body-classes: home-page
   </div>
   <div class="portfolio-intro__copy">
     <p>I earned my <strong>Master of Science in Digital Marketing (Marketing Analytics)</strong> from Cal Poly Pomona after completing my <strong>BA in Communications</strong> at UC San Diego.</p>
-    <p>My background in employee benefits and client relations shapes how I approach analytics: start with the business question, make the information understandable, and turn the findings into action.</p>
+    <p>My background includes more than five years in insurance, including supporting the servicing of 15+ large-group employee benefits accounts (500–3,000 employees) alongside Client Executives. That experience shapes how I approach analytics: start with the business question, make the information understandable, and turn the findings into action.</p>
   </div>
 </section>
 
@@ -64,7 +64,7 @@ body-classes: home-page
 
 <section class="portfolio-section tools-section">
   <p class="portfolio-eyebrow">Tools & strengths</p>
-  <div class="skill-cloud" aria-label="Tools and skills"><span>GA4</span><span>Google Ads</span><span>BigQuery</span><span>SQL</span><span>R</span><span>Quarto</span><span>Tableau</span><span>Looker Studio</span><span>SPSS</span><span>Data Visualization</span><span>Client Reporting</span><span>Stakeholder Communication</span></div>
+  <div class="skill-cloud" aria-label="Tools and skills"><span>GA4</span><span>Google Ads</span><span>BigQuery</span><span>SQL</span><span>R</span><span>Quarto</span><span>Tableau</span><span>Looker Studio</span><span>SPSS</span><span>Data Visualization</span><span>Client Reporting</span><span>Stakeholder Communication</span><span>Benefits Administration</span><span>Renewal Coordination</span><span>BenefitPoint</span><span>EASE</span><span>Employee Navigator</span></div>
 </section>
 
 <section class="portfolio-cta">
