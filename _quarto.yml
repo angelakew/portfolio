@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  post-render:
+    - node scripts/sanitize-search.cjs
   render:
     - "*.qmd"
     - "!TRI-adgrants_dashboard.qmd"
